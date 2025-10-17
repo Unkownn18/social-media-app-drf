@@ -25,16 +25,20 @@ A basic backend API for a social media application, built with Django and Django
    cd social-media-api-drf
    
 2. Create virtual environment and activate:
+    ```bash
     python -m venv env
     source env/bin/activate  # or env\Scripts\activate on Windows
 
 3. Install dependencies:
+   ```bash
    pip install -r requirements.txt
 
 4. Run migrations:
+   ```bash
    python manage.py migrate
 
 5. Start the server:
+   ```bash
    python manage.py runserver
 
 6. Access API at http://127.0.0.1:8000/
